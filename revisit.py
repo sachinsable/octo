@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-for i in range(10):
-    print "hello"
+def prange(n):
+    for i in range(n):
+        print "hello"
 
-
+prange(10)
