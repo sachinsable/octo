@@ -2,7 +2,6 @@
 
 def prange(n):
     for i in range(n):
-        print i
-        print "hello"
+        print "%d: hello" % (i)
 
 prange(10)
